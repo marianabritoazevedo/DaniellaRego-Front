@@ -20,55 +20,63 @@
     src: url("../fonts/HKGrotesk-SemiBold.otf");
 }
 
+/*Geral*/
+body, html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
 /*Navbar transparente*/
 .navbar {
     transition: all 0.4s;
+    padding: 0 !important;
 }
 
 .navbar .nav-link {
-    color: #fff;
+    color: #f2f1eb;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
+    color: #f2f1eb;
     text-decoration: none;
 }
 
 .navbar .navbar-brand {
-    color: #fff;
+    color: #f2f1eb;
 }
 
 
 /* Navbar após scroll */
 .navbar.active {
-    background: #fff;
+    background: #353837;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+    color: #f2f1eb;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
+    color: #f2f1eb;
     text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
-    color: #555;
+    color: #f2f1eb;
 }
 
 
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
     .navbar {
-        background: #fff;
+        background: #353837;
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+        color: #f2f1eb;
     }
 }
 
@@ -79,15 +87,129 @@ nav ul li{
     font-family: HKGrotesk-Light, sans-serif;
 }
 
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+/*Seção inicial*/
+
 .inicio{
-    background-image: url(../img/background.png);
+    /*background-image: url(../img/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #353837;
 }
 
 .inicio img{
     max-width: 750px;
     width: 100%;
     min-width: 300px;
+}
+
+.inicio button{
+    background: none;
+    color: #f2f1eb;
+    border: 2px solid #f2f1eb;
+    padding: 10px 15px;
+    font-family: HKGrotesk-Regular;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.inicio button:hover{
+    background: #f2f1eb;
+    color: #353837;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/*Titulo seção*/
+.linha-secao{
+    border: 2px solid #1e2120;
+    width: 130px;
+    margin: auto;
+}
+
+.titulo-secao h1{
+    color: #1e2120;
+    font-family: HKGrotesk-SemiBold;
+}
+
+/*Sobre mim*/
+
+.sobre-mim{
+    background-image: url(../img/bgcreme2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-mim img {
+    width: 100%;
+    box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.sobre-mim p{
+    font-family: HKGrotesk-Regular;
+    font-size: 18px;
+}
+
+/*Valores*/
+
+.valores{
+    background-color: #353837;
+}
+
+.valores .linha-secao{
+    border: 2px solid #f2f1eb;
+    width: 130px;
+    margin: auto;
+}
+
+.valores .titulo-secao h1{
+    color: #f2f1eb;
+    font-family: HKGrotesk-SemiBold;
+}
+
+.box-valor{
+    background-color: #f2f1eb;
+    width: 300px;
+    height: 230px;
+    transition: 0.3s;
+}
+
+.box-valor:hover{
+    box-shadow: 0px 0px 20px 1px rgba(242,241,235, 0.5);
+    transition: 0.3s;
+}
+
+.box-valor img{
+    width: 40px;
+    height: 35px;
+    margin-right: 20px;
+}
+.box-valor h4{
+    font-family: HKGrotesk-Bold;
+    color: #353837;
+    line-height: 35px;
+}
+
+.box-valor p{
+    font-family: HKGrotesk-Regular;
+}
+
+/*escritorio*/
+.escritorio p{
+    font-family: HKGrotesk-Regular;
+    font-size: 18px;
+}
+
+/* Fotos escritorio*/
+.carousel-item img{
+    width: 100%;
+}
+
+.fotos-escritorio img{
+    box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.4);
 }
