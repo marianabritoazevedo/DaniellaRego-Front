@@ -73,6 +73,11 @@ body, html {
 @media (max-width: 991.98px) {
     .navbar {
         background: #353837;
+        padding: 5px !important;
+    }
+
+    .navbar li{
+        border-bottom: 1px solid rgba(242,241,235, 0.2);
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
@@ -91,14 +96,22 @@ nav ul li:hover{
     text-decoration: underline;
 }
 
+nav ul img{
+    width: 22px;
+}
+
+nav button:focus{
+    outline: 1px solid #f2f1eb;
+}
+
 /*Seção inicial*/
 
 .inicio{
-    /*background-image: url(../img/background.png);
+    background-image: url(../img/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;*/
-    background-color: #353837;
+    background-size: cover;
+    /*background-color: #353837;*/
 }
 
 .inicio img{
@@ -122,6 +135,13 @@ nav ul li:hover{
     color: #353837;
     cursor: pointer;
     transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+    .inicio button{
+        padding: 5px 10px;
+        font-size: 16px;
+    }
 }
 
 /*Titulo seção*/
@@ -199,7 +219,8 @@ nav ul li:hover{
     font-family: HKGrotesk-Regular;
 }
 
-/*escritorio*/
+/*Escritorio*/
+
 .escritorio p{
     font-family: HKGrotesk-Regular;
     font-size: 18px;
@@ -212,4 +233,100 @@ nav ul li:hover{
 
 .fotos-escritorio img{
     box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-indicators li{
+    background-color: rgba(53, 56, 55, 0.3);
+}
+
+.carousel-indicators .active{
+    background-color: #353837;
+}
+
+/*Áreas atuação*/
+
+.card{
+    height: 325px;
+    width: 80%;
+    background-color: #353837;
+    box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.parte1-card{
+    background-color: #1e2120;
+    padding: 20px;
+}
+
+.parte2-card{
+    background-color: #353837;
+    padding: 20px;
+}
+
+.parte2-card h3{
+    color: #f2f1eb;
+    font-family: HKGrotesk-SemiBold;
+}
+
+.parte2-card button{
+    width: 120px;
+    border: 1.5px solid #f2f1eb;
+    background: none;
+    color: #f2f1eb;
+    transition: 0.3s;
+}
+
+.parte2-card button:hover{
+    background: #f2f1eb;
+    color: #1e2120;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*Principais ações*/
+
+.nav-pills .nav-link.active{
+    background-color: #353837;
+    color: #f2f1eb;
+}
+
+.nav-pills .nav-link{
+    color: #1e2120;
+    font-family: HKGrotesk-Regular;
+    font-size: 18px;
+}
+
+.principais-acoes h3 {
+    font-family: HKGrotesk-SemiBold;
+}
+
+.card-ajuda{
+    background-color: #f2f1eb;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 1px rgba(35, 36, 38, 0.3);
+}
+
+.card-ajuda h5{
+    font-family: HKGrotesk-SemiBold;
+}
+
+.card-ajuda p{
+    font-family: HKGrotesk-Regular;
+}
+
+.card-ajuda button{
+    background: none;
+    outline: none;
+    color: #353837;
+    border: 1px solid #353837;
+    font-family: HKGrotesk-Regular;
+    transition: 0.3s;
+    padding: 2px 5px;
+}
+
+.card-ajuda button:hover{
+    background-color: #353837;
+    color: #f2f1eb;
+    transition: 0.3s;
+    cursor: pointer;
 }
