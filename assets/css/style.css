@@ -83,10 +83,20 @@ body, html {
     .navbar .navbar-brand, .navbar .nav-link {
         color: #f2f1eb;
     }
+
+    header nav img:first-of-type{
+        height: 70px;
+    }
+
 }
 
 
 /*Navbar*/
+
+header nav img{
+    height: 100px;
+}
+
 nav ul li{
     font-size: 20px;
     font-family: HKGrotesk-Light, sans-serif;
@@ -328,5 +338,62 @@ nav button:focus{
     background-color: #353837;
     color: #f2f1eb;
     transition: 0.3s;
+    cursor: pointer;
+}
+
+/*Dúvidas frequentes*/
+.duvidas {
+    background-color: #f2f1eb;
+}
+
+.accordion h2{
+    color: #353837;
+    font-family: HKGrotesk-SemiBold;
+}
+
+.accordion-button{
+    background-color: #f2f1eb;
+    border: 1px solid #353837;
+} 
+
+.accordion-item:first-of-type .accordion-button {
+   border-radius: 0;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #f2f1eb;
+    background-color: #353837;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #353837;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(35 36 38 / 25%);
+}
+
+.accordion-body {
+    background-color: #f2f1eb;
+    border: 1px solid #353837;
+}
+
+.duvidas .botao-agendar button{
+    background-color: #353837;
+    color: #f2f1eb;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-family: HKGrotesk-Regular;
+    transition: 0.3s;
+}
+
+.duvidas .botao-agendar button:hover{
+    transition: 0.3s;
+    box-shadow: 2px 2px 20px 1px rgba(35, 36, 38, 0.5);
     cursor: pointer;
 }

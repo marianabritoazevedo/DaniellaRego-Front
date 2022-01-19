@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-accordion.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/logopretapequena.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -20,7 +22,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <img src="assets/img/logopequenacreme.png" alt="" style="height: 100px;">
+                <img src="assets/img/logopequenacreme.png" alt="">
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars" style="color: #f2f1eb;"></i></button>
                 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -31,7 +33,7 @@
                         <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Localização</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link"><img src="assets/img/whatsappcreme.png" alt="" data-bs-toggle="tooltip" data-placement="bottom" title="Inicie sua consultoria via Whatsapp!"></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><img src="assets/img/whatsappcreme.png" alt="" style="height: 22px;" data-bs-toggle="tooltip" data-placement="bottom" title="Inicie sua consultoria via Whatsapp!"></a></li>
                     </ul>
                 </div>
             </div>
@@ -84,7 +86,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <div class="box-valor px-3 py-4 mb-5" data-aos="flip-up" data-aos-duration="1000">
                         <div class="img-titulo-box d-flex flex-row justify-content-center mb-4 mt-3">
                             <img src="assets/img/empatia.png" alt="">
@@ -95,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <div class="box-valor px-3 py-4 mb-5" data-aos="flip-up" data-aos-duration="1000">
                         <div class="img-titulo-box d-flex flex-row justify-content-center mb-4 mt-3">
                             <img src="assets/img/compromisso.png" alt="">
@@ -106,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <div class="box-valor px-3 py-4 mb-5" data-aos="flip-up" data-aos-duration="1000">
                         <div class="img-titulo-box d-flex flex-row justify-content-center mb-4 mt-3">
                             <img src="assets/img/excelencia.png" alt="" style="width: 31px;">
@@ -448,7 +450,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="card-ajuda">
+                                    <div class="card-ajuda mb-5">
                                         <h5 class="text-center my-2">Precisa de ajuda com o consultivo?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center my-3">
@@ -462,6 +464,76 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="duvidas mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
+                    <div class="titulo-secao">
+                        <div class="linha-secao"></div>
+                        <h1 class="mt-4 mb-5 text-center">Dúvidas frequentes</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis lacinia urna sit amet dapibus. 
+                        Morbi scelerisque dignissim metus et venenatis. Praesent semper euismod magna, in bibendum dolor maximus ac. Phasellus convallis ante at blandit ullamcorper. </p>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     1. Em quais sitações eu devo contratar um advogado de família e sucessões?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Sed vitae lorem eget sapien iaculis convallis. Etiam viverra ante in massa tempus, eget maximus lacus blandit. Vestibulum vulputate ultricies mauris, 
+                            a sagittis est pretium eu. Nunc ornare tellus tortor, ut semper turpis pretium vitae. Curabitur orci velit, viverra a magna nec, fermentum faucibus turpis. 
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                            Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     2. Caso tenha ocorrido um divórcio, o que devo fazer?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Sed vitae lorem eget sapien iaculis convallis. Etiam viverra ante in massa tempus, eget maximus lacus blandit. Vestibulum vulputate ultricies mauris, 
+                            a sagittis est pretium eu. Nunc ornare tellus tortor, ut semper turpis pretium vitae. Curabitur orci velit, viverra a magna nec, fermentum faucibus turpis. 
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                            Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     3. Como fazer um acordo de maneira rápida em situação x?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Sed vitae lorem eget sapien iaculis convallis. Etiam viverra ante in massa tempus, eget maximus lacus blandit. Vestibulum vulputate ultricies mauris, 
+                            a sagittis est pretium eu. Nunc ornare tellus tortor, ut semper turpis pretium vitae. Curabitur orci velit, viverra a magna nec, fermentum faucibus turpis. 
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                            Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row botao-agendar">
+                  <div class="col-12 d-flex justify-content-center mb-5 mt-4">
+                      <button>Agendar consultoria</button>
+                  </div>
+              </div>
         </div>
     </div>
 </body>
