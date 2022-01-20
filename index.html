@@ -18,6 +18,11 @@
     </style>
 </head>
 <body>
+    <div class="icone-verde-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5584998548824" target="_blank">
+            <img src="assets/img/icone-wpp.png" alt="" data-bs-toggle="tooltip" data-placement="top" title="Inicie sua consultoria imediatamente via Whatsapp clicando aqui!">
+        </a>
+    </div>
     <!-- Navbar-->
     <header class="header">
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -28,11 +33,11 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active"><a href="#sobre-mim" class="nav-link">Sobre mim <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Escritório</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Áreas atuação</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Localização</a></li>
+                        <li class="nav-item"><a href="#escritorio" class="nav-link">Escritório</a></li>
+                        <li class="nav-item"><a href="#areas-atuacao" class="nav-link">Áreas atuação</a></li>
+                        <li class="nav-item"><a href="#duvidas" class="nav-link">Dúvidas</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                        <li class="nav-item"><a href="#localizacao" class="nav-link">Localização</a></li>
                         <li class="nav-item"><a href="#" class="nav-link"><img src="assets/img/whatsappcreme.png" alt="" style="height: 22px;" data-bs-toggle="tooltip" data-placement="bottom" title="Inicie sua consultoria via Whatsapp!"></a></li>
                     </ul>
                 </div>
@@ -122,7 +127,7 @@
             </div>
         </div>
     </div>
-    <div class="escritorio">
+    <div class="escritorio" id="escritorio">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -207,7 +212,7 @@
             <!--/.Carousel Wrapper-->
         </div>
     </div>
-    <div class="areas-atuacao">
+    <div class="areas-atuacao" id="areas-atuacao">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -225,7 +230,7 @@
                         </div>
                         <div class="parte2-card d-flex flex-column justify-content-center align-items-center">
                             <h3 class="text-center px-3 mt-2">Direito de família</h3>
-                            <button class="d-flex justify-content-center" style="margin-top: 30px;">Saiba mais</button>
+                            <button class="d-flex justify-content-center" style="margin-top: 30px;" data-bs-toggle="modal" data-bs-target="#direito-familia">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -236,7 +241,7 @@
                         </div>
                         <div class="parte2-card d-flex flex-column justify-content-center align-items-center">
                             <h3 class="text-center px-3 mt-4">Divórcio</h3>
-                            <button class="d-flex justify-content-center" style="margin-top: 47px;">Saiba mais</button>
+                            <button class="d-flex justify-content-center" style="margin-top: 47px;" data-bs-toggle="modal" data-bs-target="#divorcio">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -247,7 +252,7 @@
                         </div>
                         <div class="parte2-card d-flex flex-column justify-content-center align-items-center">
                             <h3 class="text-center px-3 mt-2">Direito de sucessões</h3>
-                            <button class="d-flex justify-content-center" style="margin-top: 30px;">Saiba mais</button>
+                            <button class="d-flex justify-content-center" style="margin-top: 30px;" data-bs-toggle="modal" data-bs-target="#direito-sucessoes">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -466,7 +471,7 @@
             </div>
         </div>
     </div>
-    <div class="duvidas mt-5">
+    <div class="duvidas mt-5" id="duvidas">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -536,7 +541,7 @@
               </div>
         </div>
     </div>
-    <div class="contato">
+    <div class="contato" id="contato">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -603,7 +608,7 @@
             </div>
         </div>
     </div>
-    <div class="localizacao">
+    <div class="localizacao" id="localizacao">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -680,6 +685,100 @@
             </div>
         </div>
     </div>
+
+    <!--Modal direito de família-->
+    <div class="modal fade" id="direito-familia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header" style="background-color: #f2f1eb;">
+                        <div>
+                            <h5 class="text-center mt-2">Sobre direito de família</h5>
+                        </div>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum. 
+                                    Sed nisl leo, condimentum eu est id, egestas condimentum sapien. Nulla facilisi. Sed tellus risus, posuere non felis et, tempor rhoncus mi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <!--Modal divórcio-->
+    <div class="modal fade" id="divorcio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header" style="background-color: #f2f1eb;">
+                        <div>
+                            <h5 class="text-center mt-2">Sobre divórcio</h5>
+                        </div>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum. 
+                                    Sed nisl leo, condimentum eu est id, egestas condimentum sapien. Nulla facilisi. Sed tellus risus, posuere non felis et, tempor rhoncus mi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <!--Modal direito de sucessões-->
+    <div class="modal fade" id="direito-sucessoes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header" style="background-color: #f2f1eb;">
+                        <div>
+                            <h5 class="text-center mt-2">Sobre direito de sucessões</h5>
+                        </div>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum. 
+                                    Sed nisl leo, condimentum eu est id, egestas condimentum sapien. Nulla facilisi. Sed tellus risus, posuere non felis et, tempor rhoncus mi.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh mauris. Pellentesque eu ligula a risus vehicula aliquam vel quis nibh. 
+                                    Etiam sit amet hendrerit nulla. Proin at erat nec leo finibus tempus. Integer ac nibh ac nibh fringilla sagittis. Mauris augue dui, porttitor sit amet auctor nec, 
+                                    porta suscipit lorem. Morbi luctus nibh non tempor sodales. Donec at sem eget felis condimentum elementum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </div>
+
 </body>
 
 

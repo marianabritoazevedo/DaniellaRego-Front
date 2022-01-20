@@ -20,11 +20,32 @@
     src: url("../fonts/HKGrotesk-SemiBold.otf");
 }
 
-/*Geral*/
+/*Geral e ícone whatsapp*/
 body, html {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.icone-verde-whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+}
+
+.icone-verde-whatsapp img{
+    width: 70px;
+}
+
+@media (max-width: 768px){
+    .icone-verde-whatsapp img{
+        width: 50px;
+    }
 }
 
 /*Navbar transparente*/
@@ -78,6 +99,10 @@ body, html {
 
     .navbar li{
         border-bottom: 1px solid rgba(242,241,235, 0.2);
+    }
+
+    .navbar li:last-child{
+        border-bottom: none;
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
@@ -493,4 +518,19 @@ iframe{
     .rodape-mobile{
         display: block !important;
     }
+}
+
+/*Modais*/
+
+.modal-header h5{
+    color: #1e2120;
+    font-family: HKGrotesk-SemiBold;
+}
+
+.modal-header button:focus{
+    outline: none;
+}
+
+.areas-atuacao button:focus{
+    outline: none;
 }
