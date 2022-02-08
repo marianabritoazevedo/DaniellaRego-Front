@@ -142,7 +142,7 @@ nav button:focus{
 /*Seção inicial*/
 
 .inicio{
-    background-image: url(../img/background.png);
+    background-image: url(../img/bg-inicio-3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -279,6 +279,10 @@ nav button:focus{
 }
 
 /*Áreas atuação*/
+
+.areas-atuacao{
+    background-color: #f2f1eb;
+}
 
 .card{
     height: 325px;
@@ -468,6 +472,13 @@ textarea.form-control {
     transition: 0.3s;
     box-shadow: 2px 2px 20px 1px rgba(35, 36, 38, 0.5);
     cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .box-wpp p{
+        font-size: 16px;
+    }
+
 }
 
 /*Localização*/
