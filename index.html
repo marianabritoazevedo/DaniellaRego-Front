@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap-accordion.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/logopretapequena.png">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <title>Daniella Rêgo</title>
@@ -33,10 +32,12 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="#escritorio" class="nav-link">Escritório</a></li>
                         <li class="nav-item"><a href="#areas-atuacao" class="nav-link">Áreas atuação</a></li>
+                        <li class="nav-item active"><a href="#sobre-mim" class="nav-link">Sobre mim <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#acoes" class="nav-link">Ações</a></li>
                         <li class="nav-item"><a href="#duvidas" class="nav-link">Dúvidas</a></li>
                         <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
                         <li class="nav-item"><a href="#localizacao" class="nav-link">Localização</a></li>
-                        <li class="nav-item active"><a href="#sobre-mim" class="nav-link">Sobre mim <span class="sr-only">(current)</span></a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -153,7 +154,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
-                    <div class="card" data-aos="zoom-in" data-aos-duration="500">
+                    <div class="card">
                         <div class="parte1-card d-flex flex-row justify-content-center">
                             <img src="assets/img/card1.png" alt="" style="height: 85px;">
                         </div>
@@ -164,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
-                    <div class="card" data-aos="zoom-in" data-aos-duration="500">
+                    <div class="card">
                         <div class="parte1-card d-flex flex-row justify-content-center">
                             <img src="assets/img/card2.png" alt="">
                         </div>
@@ -175,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
-                    <div class="card" data-aos="zoom-in" data-aos-duration="500">
+                    <div class="card">
                         <div class="parte1-card d-flex flex-row justify-content-center">
                             <img src="assets/img/card3.png" alt="">
                         </div>
@@ -188,7 +189,33 @@
             </div>
         </div>
     </div>
-    <div class="principais-acoes">
+    <div class="sobre-mim" id="sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
+                    <div class="titulo-secao">
+                        <div class="linha-secao"></div>
+                        <h1 class="mt-4">Sobre mim</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center col-md-4 mt-5 mb-5">
+                    <img src="assets/img/fotodaniella.jpg" alt="">
+                </div>
+                <div class="col-md-8 d-flex align-items-left mb-5 flex-column justify-content-center">
+                    <p class="text-justify">Daniella Rêgo (OAB|RN 8482) é Advogada especialista em Direito de Família e Sucessões. 
+                        Com mais de dez anos de experiência, estampa sensibilidade e técnica no atendimento às necessidades dos seus clientes, 
+                        através de linguagem acessível e clareza de informações.
+                    </p>
+                    <div>
+                        <button data-bs-toggle="modal" data-bs-target="#saiba-mais-sobre-mim">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="principais-acoes" id="acoes">
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
@@ -239,7 +266,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="card-ajuda" data-aos="zoom-in" data-aos-duration="500">
+                                    <div class="card-ajuda">
                                         <h5 class="text-center my-2">Precisa de ajuda com o divórcio?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center">
@@ -271,7 +298,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="card-ajuda" data-aos="zoom-in" data-aos-duration="500">
+                                    <div class="card-ajuda">
                                         <h5 class="text-center my-2">Precisa de ajuda com a partilha de bens?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center">
@@ -303,7 +330,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="card-ajuda" data-aos="zoom-in" data-aos-duration="500">
+                                    <div class="card-ajuda">
                                         <h5 class="text-center my-2">Precisa de ajuda com guarda e visitação?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center">
@@ -367,7 +394,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="card-ajuda" data-aos="zoom-in" data-aos-duration="500">
+                                    <div class="card-ajuda">
                                         <h5 class="text-center my-2">Precisa de ajuda com o inventário?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center">
@@ -399,7 +426,7 @@
                                         Praesent cursus, odio efficitur fermentum tincidunt, dolor ex rutrum purus, dapibus pharetra diam sem eu ante. Sed nec sapien lectus. Ut at tempus justo.</p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="card-ajuda mb-5" data-aos="zoom-in" data-aos-duration="500">
+                                    <div class="card-ajuda mb-5">
                                         <h5 class="text-center my-2">Precisa de ajuda com o consultivo?</h5>
                                         <p class="text-center my-3">Agende uma consulta especializada</p>
                                         <div class="d-flex justify-content-center">
@@ -577,32 +604,7 @@
             </div>
         </div>
     </div>
-    <div class="sobre-mim" id="sobre-mim">
-        <div class="container">
-            <div class="row">
-                <div class="d-flex flex-row justify-content-center align-items-center col-12 mt-5">
-                    <div class="titulo-secao">
-                        <div class="linha-secao"></div>
-                        <h1 class="mt-4">Sobre mim</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="d-flex align-items-center justify-content-center col-md-4 mt-5 mb-5">
-                    <img src="assets/img/fotodaniella.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
-                </div>
-                <div class="col-md-8 d-flex align-items-left mb-5 flex-column justify-content-center">
-                    <p class="text-justify">Daniella Rêgo (OAB|RN 8482) é Advogada especialista em Direito de Família e Sucessões. 
-                        Com mais de dez anos de experiência, estampa sensibilidade e técnica no atendimento às necessidades dos seus clientes, 
-                        através de linguagem acessível e clareza de informações.
-                    </p>
-                    <div>
-                        <button data-bs-toggle="modal" data-bs-target="#saiba-mais-sobre-mim">Saiba mais</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="rodape">
         <div class="container">
             <div class="row d-flex flex-row justify-content-between align-items-center">
@@ -645,30 +647,27 @@
     <div class="modal fade" id="saiba-mais-sobre-mim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <form>
-                    <div class="modal-header" style="background-color: #f2f1eb;">
-                        <div>
-                            <h5 class="text-center mt-2">Mais sobre minha formação</h5>
-                        </div>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span>&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-12 my-3">
-                                <ul class="text-justify pr-3">
-                                    <li>Especializada em Direito das Família e Sucessões – Pontifícia Universidade Católica de São Paulo - PUC|SP.</li>
-                                    <li>Curso de Direito Homoafetivo e da Diversidade Sexual - Teoria e Prática na Escola da OAB de São Paulo – ESA|OAB-SP.</li>
-                                    <li>Curso Holding Familiar & Proteção Patrimonial - Escola de Auditoria e Governança Corporativa. </li>
-                                    <li>1º Curso de Capacitação Nacional em Práticas Colaborativas em São Paulo – Instituto Brasileiro de Práticas Colaborativas - IBPC.</li>
-                                    <li>Curso de Capacitação, Treinamento e Aperfeiçoamento de Mediadores e Conciliadores (de acordo com a Resolução 125/2010 do Conselho Nacional de Justiça - CNJ) - na Escola da OAB São Paulo.</li>
-                                    <li>Associada ao IBDFAM (Instituto Brasileiro de Direito de Família).</li>
-                                </ul>
-                            </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span>&times;</span>
+                            </button>
                         </div>
                     </div>
-                </form> 
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <ul class="text-justify pr-3">
+                                <li>Especializada em Direito das Família e Sucessões – Pontifícia Universidade Católica de São Paulo - PUC|SP.</li>
+                                <li>Curso de Direito Homoafetivo e da Diversidade Sexual - Teoria e Prática na Escola da OAB de São Paulo – ESA|OAB-SP.</li>
+                                <li>Curso Holding Familiar & Proteção Patrimonial - Escola de Auditoria e Governança Corporativa. </li>
+                                <li>1º Curso de Capacitação Nacional em Práticas Colaborativas em São Paulo – Instituto Brasileiro de Práticas Colaborativas - IBPC.</li>
+                                <li>Curso de Capacitação, Treinamento e Aperfeiçoamento de Mediadores e Conciliadores (de acordo com a Resolução 125/2010 do Conselho Nacional de Justiça - CNJ) - na Escola da OAB São Paulo.</li>
+                                <li>Associada ao IBDFAM (Instituto Brasileiro de Direito de Família).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -821,31 +820,4 @@ $('.multi-item-carousel .item').each(function(){
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
 </script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-        // Global settings:
-        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-        initClassName: 'aos-init', // class applied after initialization
-        animatedClassName: 'aos-animate', // class applied on animation
-        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-        
-
-        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-        offset: 120, // offset (in px) from the original trigger point
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: 'ease', // default easing for AOS animations
-        once: false, // whether animation should happen only once - while scrolling down
-        mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-        });
-  </script>
-
 </html>

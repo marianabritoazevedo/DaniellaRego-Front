@@ -297,7 +297,8 @@ nav button:focus{
 /*Áreas atuação*/
 
 .areas-atuacao{
-    background-color: #f2f1eb;
+    /*background-color: #f2f1eb;*/
+    background-color: #fff;
 }
 
 .card{
