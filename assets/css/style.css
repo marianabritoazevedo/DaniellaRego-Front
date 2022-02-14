@@ -142,11 +142,11 @@ nav button:focus{
 /*Seção inicial*/
 
 .inicio{
-    background-image: url(../img/bg-inicio-3.png);
-    background-position: center;
+    /*background-image: url(../img/bg-inicio-7.jpg);
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    /*background-color: #353837;*/
+    background-size: cover;*/
+    background-color: #353837;
 }
 
 .inicio img{
@@ -208,6 +208,22 @@ nav button:focus{
 .sobre-mim p{
     font-family: HKGrotesk-Regular;
     font-size: 18px;
+}
+
+.sobre-mim button{
+    background-color: #353837;
+    color: #f2f1eb;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-family: HKGrotesk-Regular;
+    transition: 0.3s;
+}
+
+.sobre-mim button:hover{
+    transition: 0.3s;
+    box-shadow: 2px 2px 20px 1px rgba(35, 36, 38, 0.5);
+    cursor: pointer;
 }
 
 /*Valores*/
@@ -343,6 +359,7 @@ nav button:focus{
     padding: 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 1px rgba(35, 36, 38, 0.3);
+   /* max-width: 500px;*/
 }
 
 .card-ajuda h5{
@@ -492,7 +509,7 @@ textarea.form-control {
 }
 
 iframe{
-    width: 550px;
+    width: 700px;
     height: 375px;
 }
 
